@@ -1,0 +1,13 @@
+c:\users\ernesto\documents\visual studio 2012\Projects\BowlingScore\BowlingScore\bin\Debug\BowlingScore.exe.config
+c:\users\ernesto\documents\visual studio 2012\Projects\BowlingScore\BowlingScore\bin\Debug\BowlingScore.exe
+c:\users\ernesto\documents\visual studio 2012\Projects\BowlingScore\BowlingScore\bin\Debug\BowlingScore.pdb
+c:\users\ernesto\documents\visual studio 2012\Projects\BowlingScore\BowlingScore\obj\Debug\BowlingScore.csprojResolveAssemblyReference.cache
+c:\users\ernesto\documents\visual studio 2012\Projects\BowlingScore\BowlingScore\obj\Debug\BowlingScore.Form1.resources
+c:\users\ernesto\documents\visual studio 2012\Projects\BowlingScore\BowlingScore\obj\Debug\BowlingScore.Properties.Resources.resources
+c:\users\ernesto\documents\visual studio 2012\Projects\BowlingScore\BowlingScore\obj\Debug\BowlingScore.csproj.GenerateResource.Cache
+c:\users\ernesto\documents\visual studio 2012\Projects\BowlingScore\BowlingScore\obj\Debug\BowlingScore.exe
+c:\users\ernesto\documents\visual studio 2012\Projects\BowlingScore\BowlingScore\obj\Debug\BowlingScore.pdb
+C:\Users\Ernesto\documents\visual studio 2012\Projects\BowlingScore\BowlingScore\obj\Debug\BowlingScore.BackgroundGameplay.resources
+C:\Users\OttoVargas\Downloads\BowlingScore\BowlingScore\BowlingScore\bin\Debug\BowlingScore.exe.config
+C:\Users\OttoVargas\Downloads\BowlingScore\BowlingScore\BowlingScore\obj\Debug\BowlingScore.exe
+C:\Users\OttoVargas\Downloads\BowlingScore\BowlingScore\BowlingScore\obj\Debug\BowlingScore.pdb

@@ -1,1 +1,9 @@
 c:\users\ernesto\documents\visual studio 2012\Projects\BowlingScore1.0\BowlingScore1.0\bin\Debug\BowlingScore1.0.exe.config
+C:\Users\OttoVargas\Documents\GitHub\Bowling\BowlingScore1.0\BowlingScore1.0\bin\Debug\BowlingScore1.0.exe.config
+C:\Users\OttoVargas\Documents\GitHub\Bowling\BowlingScore1.0\BowlingScore1.0\bin\Debug\BowlingScore1.0.exe
+C:\Users\OttoVargas\Documents\GitHub\Bowling\BowlingScore1.0\BowlingScore1.0\bin\Debug\BowlingScore1.0.pdb
+C:\Users\OttoVargas\Documents\GitHub\Bowling\BowlingScore1.0\BowlingScore1.0\obj\Debug\BowlingScore1.0.csprojResolveAssemblyReference.cache
+C:\Users\OttoVargas\Documents\GitHub\Bowling\BowlingScore1.0\BowlingScore1.0\obj\Debug\BowlingScore1._0.Properties.Resources.resources
+C:\Users\OttoVargas\Documents\GitHub\Bowling\BowlingScore1.0\BowlingScore1.0\obj\Debug\BowlingScore1.0.csproj.GenerateResource.Cache
+C:\Users\OttoVargas\Documents\GitHub\Bowling\BowlingScore1.0\BowlingScore1.0\obj\Debug\BowlingScore1.0.exe
+C:\Users\OttoVargas\Documents\GitHub\Bowling\BowlingScore1.0\BowlingScore1.0\obj\Debug\BowlingScore1.0.pdb
