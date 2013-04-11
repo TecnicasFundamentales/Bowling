@@ -1,0 +1,5 @@
+c:\users\ottovargas\documents\visual studio 2012\Projects\Testingclasses\Testingclasses\bin\Debug\Testingclasses.dll
+c:\users\ottovargas\documents\visual studio 2012\Projects\Testingclasses\Testingclasses\bin\Debug\Testingclasses.pdb
+c:\users\ottovargas\documents\visual studio 2012\Projects\Testingclasses\Testingclasses\obj\Debug\Testingclasses.csprojResolveAssemblyReference.cache
+c:\users\ottovargas\documents\visual studio 2012\Projects\Testingclasses\Testingclasses\obj\Debug\Testingclasses.dll
+c:\users\ottovargas\documents\visual studio 2012\Projects\Testingclasses\Testingclasses\obj\Debug\Testingclasses.pdb
