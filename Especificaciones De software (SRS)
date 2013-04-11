@@ -1,0 +1,186 @@
+
+Especificación de requerimientos de Software
+Para
+Bowling Score
+Versión 1.0 aprobada
+Preparado por:
+ Ernesto Acosta 09-0191
+Otto Vargas
+Irving Anglon
+EOI S.A.
+<Fecha de creación>
+ 
+Índice
+Índice  ii
+Historial de revisión	ii
+1.	Introducción	1
+1.1	Propósito	1
+1.2	Convenciones	1
+1.3	Audiencia del documento	1
+1.4	Alcance del proyecto	1
+2.	Descripción general	2
+2.1	Perspectiva del producto	2
+2.2	Características principales del producto	2
+2.3	Clases de usuarios y características	2
+2.4	Entorno operativo	2
+2.5	Diseño y restricciones de implementación	2
+2.6	Documentación de usuario	2
+2.7	Supuestos y dependencias	3
+3.	Requerimientos funcionales del sistema	3
+3.1	Requerimiento del sistema 1	3
+3.2	Requerimiento del sistema 2 (y así sucesivamente)	4
+4.	Requerimientos de interfaces externas	4
+4.1	Interfaces de usuario	4
+4.2	Interfaces de hardware	4
+4.3	Interfaces de software	4
+4.4	Interfaces de comunicación	4
+5.	Otros requerimientos no funcionales	5
+5.1	Requerimientos de performance	5
+5.2	Requerimientos de seguridad física	5
+5.3	Requerimientos de seguridad lógica	5
+5.4	Atributos de calidad del software	5
+6.	Otros requerimientos	5
+Apéndice A: Glosario	5
+Apéndice B: Modelos de análisis	6
+Apéndice C: Lista de temas a tratar (issues)	6
+
+
+Historial de revisión
+Nombre	Fecha	Razón del cambio	Versión
+			
+			
+
+
+
+1.	Introducción
+1.1	Propósito
+El Objetivo de los requisitos del software en general es el de desarrollar una aplicación para la anotación de un juego de boliche entre dos jugadores (hasta ahora seleccionado por un solo usuario). Donde la aplicación deberá permitir la navegación del juego, jugada por jugada.
+1.2	Convenciones
+El contenido del siguiente documento está sujeto a cambios durante el transcurso del proyecto, los cuales serán validados y verificados por el equipo y guardados en un histórico que se anexara a la versión final y se registrara en el histórico de revisión.
+1.3	Audiencia del documento 
+Entre la audiencia del presente documento se encuentra:
+
+•	Programadores del Proyecto
+•	Encargado de Documentación
+•	Futuros programadores de software similar
+•	Evaluador Final del Proyecto
+
+1.4	Alcance del proyecto
+El software tiene como propósito presentar la puntuación de un juego de boliche en modalidad 10 pins. Con el mismo el usuario podrá ver como se desarrolló un juego previamente adaptado al formato de entrada y podrá repasar las jugadas en ambos sentidos.
+
+
+
+
+
+2.	Descripción general
+2.1	Perspectiva del producto 
+Este software ha sido creado como una solución a una necesidad del cliente/usuario, se creó desde 0 tomando en cuenta software similar en otra plataforma o sistema y las reglas del juego de boliche en la modalidad seleccionada por el cliente.
+
+2.2	Características principales del producto
+Nuestro software muestra las jugadas y puntuaciones de un juego de boliche en modalidad 10 pinos, que fue previamente transcrito a un archivo .txt, no solo las muestra sino que posee la funcionalidad de retroceder y simular que se está en un momento especifico del juego presentando las puntuaciones correspondientes.
+
+2.3	Clases de usuarios y características
+Este software será utilizado por un usuario final el cual conoce el juego de boliche modalidad 10 pinos, y esperara mostrar con el software el desarrollo de un juego hipotético o real que transcriba a un documento tipo .txt.
+2.4	Entorno operativo
+El software corre sobre la plataforma Windows, de la cual soporta sus versiones 7 y 8. Entre las especificaciones de hardware tenemos que, como el software dado su nivel de complejidad funciona con pocos recursos, el hardware requerido puede ser el estándar más genérico, siempre y cuando corra bajo Windows 7 o 8.
+2.5	Diseño y restricciones de implementación
+La implementación de nuestra solución se ve restringida por los lenguajes de programación y herramientas que funcionan en el ambiente de Windows. También está limitado por requerimiento del usuario a solo representar el juego entre dos jugadores y a tomar un tipo único de input con características específicas como válido. Podríamos agregar también la necesidad de poder hacer un “Rollback Visual” por parte del usuario con la data que se despliega.
+
+
+
+2.6	Documentación de usuario
+•	Bowling lessons for beginners
+http://www.youtube.com/watch?v=_1NqzgetTVw
+•	Bowling tip for beginners
+http://www.squidoo.com/bowlingtipsforbeginners#module9285266
+•	Bowling
+http://es.wikipedia.org/wiki/Bowling
+
+2.7	Supuestos y dependencias
+El correcto funcionamiento del software dependerá siempre del input y más específicamente del correcto formato del archivo de entrada de datos que será provisto por el mismo usuario y que ha determinado la forma y técnicas utilizadas para completar las tareas requeridas por el usuario final.
+3.	Requerimientos funcionales del sistema
+En esta sección se exponen los requerimientos funcionales y no funcionales que definen la aplicación. Estos requerimientos son definidos con un nivel de prioridad que va definido de 1 a 10.
+3.1	Leer archivo txt
+3.1.1	Descripción y prioridad
+El lector txt, es una funcionalidad critica de la aplicación, en la cual se lee de un archivo txt el resumen de un juego completo de boliche. Prioridad 8.
+3.1.2	Estimulo/Respuesta Secuencias
+1.	El usuario hace click en el botón de búsqueda.
+2.	Se abre una ventana de búsqueda.
+3.	El usuario selecciona el archivo deseado
+4.	El software lee el archivo.
+3.1.3	Requerimiento funcional 
+Documento txt estandarizado. El documento txt debe contener solo las jugadas realizadas de la partida y debe venir estandarizado de la siguiente forma:
+-	Una línea por jugada.
+-	Dos líneas por jugador.
+-	3 líneas por jugador en las últimas 6.
+-	42 líneas total.
+-	Solo números enteros por línea.
+-	El valor de cada jugada no puede excederse del rango 0 < 9
+
+1.	Búsqueda del archivo. El usuario debe de tener una manera de buscar el archivo dentro de la aplicación.
+2.	Leer archivo. El software debe de poder leer el archivo txt en su totalidad comprendiendo que ha leído.
+3.	Identificar faltas en el documento txt. El software debe de reconocer cualquier falta que pueda haber en el documento txt, es decir, cualquier aspecto que no cumpla con el formato que debe llevar el archivo especificado anteriormente, deberá ser detectado y advertido.	
+3.2	Jugar el juego
+3.2.1	Descripción y prioridad
+El software debe tener la capacidad de, dado el documento con las jugadas, jugar el juego, frame por frame, mostrando continuamente el desempeño de cada jugador en el frame que se encuentre. Prioridad 10.
+3.2.2	Estimulo/Respuesta Secuencias
+1.	Cargar la pantalla del juego.
+2.	Mostrar el desarrollo del current frame.
+3.	Avanzar.
+4.	Actualizar current frame.
+5.	Terminar el juego.
+3.2.3	Requerimiento funcional 
+1.	Mostrar el desempeño de cada jugador en pantalla. 
+2.	Avanzar. El software debe contemplar un botón el cual sirva de activador para la jugada siguiente.
+3.	Refrescar el current frame. El software debe contemplar de una manera fácil de ver, el resumen de las jugadas de cada jugador hasta el frame en que se encuentre, siempre actualizando la información con cada jugada realizada.
+3.3	Back
+3.3.1	Descripción y prioridad
+El “back” es una funcionalidad la cual consiste en volver a la jugada anterior. Prioridad 6.
+3.3.2	Estimulo/Respuesta Secuencias
+1.	El usuario hace Click en el botón back.
+2.	La ventana se refresca con la jugada anterior.
+3.3.3	Requerimiento funcional 
+1.	Mostrar el desempeño de cada jugador en pantalla.
+2.	Retroceder a la jugada anterior. El software debe contemplar un botón el cual sirve para retroalimentar la jugada pasada.
+3.	Refrescar la ventana. Luego de dar marcha atrás se debe refrescar la ventana con los datos solicitados.
+4.	Requerimientos de interfaces externas
+4.1	Interfaces de usuario
+El software cuenta con dos ventanas: una de selección del archivo y otra para jugar. En la ventana de búsqueda se debe contar con las siguientes características:
+
+1 botón buscar.
+1 TextBox donde se muestra la ruta del archivo.
+1 botón cargar.
+
+Ejemplo:
+ 
+En la ventana de resume del juego, deben de haber las siguientes características:
+10 tablas de resultados por jugador.
+1 botón next.
+1 botón back.
+Current score player 1
+Current score player 2
+Ejemplo:
+ 
+Los mensajes de error deben ser mostrados con un MessageBox indicando el error específico. Ejemplo:
+
+ 
+Nota: No es obligatorio usar específicamente los diseños mostrados anteriormente. Solo debe cumplir con los campos mostrados, lo demás es entendimiento y creatividad de los desarrolladores.
+
+4.2	Interfaces de software
+Para el diseño y el uso de esta aplicación no será necesario el uso de una aplicación externa o de una base de datos. La información es proporcionada en un documento “txt” el cual una vez se encuentre corriendo la aplicación, todo lo que haga se mantendrá en memoria.
+Cabe destacar que para la implementación del programa se hace necesario la implementación de la librería System.IO la cual es la única que será usada fuera de lo genérico o estándar. De esta librería será necesario utilizar el StreamReader el cual se utilizara para leer del documento “txt”.
+El programa debe ser soportado por los sistemas operativos Windows 7 y Windows 8.
+5.	Otros requerimientos no funcionales
+5.1	Requerimientos de seguridad 
+Para este software en materia de seguridad no hay ningún requerimiento de impacto que salga de lo generalizado.
+5.2	Atributos de calidad del software
+En calidad de software el programa debe contar con todas sus validaciones correspondientes para así asegurar su uso correcto en todo momento. Alguna de estas validaciones puede ser:
+•	Verificar que el documento “txt” este completo y sea coherente. Así evitar el mostrar juegos incompletos o sin sentido.
+•	Validar fin del juego.
+•	Validar ganador.
+Apéndice A: Glosario
+Frame – Define 1 turno de cada jugador. El juego consta de 10 frames en total.
+Current frame – Define el frame en el que se encuentra el juego actualmente.
+
+
+
