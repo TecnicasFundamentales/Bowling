@@ -1,0 +1,9 @@
+C:\Users\Ernesto\documents\visual studio 2012\Projects\BowlingScore\BowlingScore\bin\Release\BowlingScore.exe.config
+C:\Users\Ernesto\documents\visual studio 2012\Projects\BowlingScore\BowlingScore\bin\Release\BowlingScore.exe
+C:\Users\Ernesto\documents\visual studio 2012\Projects\BowlingScore\BowlingScore\bin\Release\BowlingScore.pdb
+C:\Users\Ernesto\documents\visual studio 2012\Projects\BowlingScore\BowlingScore\obj\Release\BowlingScore.Form1.resources
+C:\Users\Ernesto\documents\visual studio 2012\Projects\BowlingScore\BowlingScore\obj\Release\BowlingScore.BackgroundGameplay.resources
+C:\Users\Ernesto\documents\visual studio 2012\Projects\BowlingScore\BowlingScore\obj\Release\BowlingScore.Properties.Resources.resources
+C:\Users\Ernesto\documents\visual studio 2012\Projects\BowlingScore\BowlingScore\obj\Release\BowlingScore.csproj.GenerateResource.Cache
+C:\Users\Ernesto\documents\visual studio 2012\Projects\BowlingScore\BowlingScore\obj\Release\BowlingScore.exe
+C:\Users\Ernesto\documents\visual studio 2012\Projects\BowlingScore\BowlingScore\obj\Release\BowlingScore.pdb
